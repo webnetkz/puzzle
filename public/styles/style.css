@@ -133,6 +133,15 @@ html {
     left: 70%;
     top: 379px;
     background: #FFDC27;
+    animation: anim2 2000ms infinite;
+}
+@keyframes anim2 {
+    50% {
+        transform: translateX(-20px);
+    }
+    90% {
+
+    }
 }
 .rightDecorationBlocks > .threeDecoration {
     position: absolute;
